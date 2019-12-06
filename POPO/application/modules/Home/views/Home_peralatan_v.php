@@ -41,9 +41,45 @@
   <!--content-->
 <div class="content">
   <!--Products-->
-  
-  
-
-  
+  <div class="latest-w3">
+    <div class="container">
+      <h3 class="tittle1">Kategori Yang Sering Dicari</h3>
+      <div class="latest-grids">
+        <div class="col-md-4 latest-grid">
+          <div class="latest-top">
+            <img  src="<?php echo base_url()."assets/"; ?>mainpage/images/kat1.jpg" class="img-responsive"  alt="">
+            <a href="<?php echo base_url()."Peralatan/Kategori/2"; ?>">
+              <div class="latest-text">
+                <h4>Sepatu Fulsal</h4>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4 latest-grid">
+          <div class="latest-top">
+            <img  src="<?php echo base_url()."assets/"; ?>mainpage/images/kat3.jpg" class="img-responsive"  alt="">
+            <a href="<?php echo base_url()."Peralatan/Kategori/4"; ?>">
+              <div class="latest-text">
+                <h4>Jersey Sepak Bola</h4>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4 latest-grid">
+          <div class="latest-top">
+            <img  src="<?php echo base_url()."assets/"; ?>mainpage/images/kat2.jpg" class="img-responsive"  alt="">
+            <a href="<?php echo base_url()."Peralatan/Kategori/1"; ?>">
+              <div class="latest-text">
+                <h4>Sepatu Sepak Bola</h4>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <!-- <div class="latest-grids"> -->
+        <!-- <div class="clearfix"></div> -->
+      <!-- </div> -->
+    </div>
 </div>
 <!--content-->
